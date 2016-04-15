@@ -24,3 +24,29 @@ polyline 折线
 
 polygon
 > * points = 'x1 y1 x2 y2 x3 y3'
+
+## 填充 描边和变换
+
+* fill 填充颜色
+* stroke 描边颜色
+* stroke-width 边框宽度
+* transform 变形
+
+## JS操作API
+
+* 创建图形
+```
+document.createElementNS(ns,circle)
+
+```
+* 添加图形（添加到DOM上）
+```
+element.append(childElement)
+
+```
+* 设置/获取属性：
+```
+element.setAttribute(name,value)
+element.getAttribute(name)
+
+```
