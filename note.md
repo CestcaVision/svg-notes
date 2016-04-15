@@ -37,16 +37,13 @@ polygon
 * 创建图形
 ```
 document.createElementNS(ns,circle)
-
 ```
 * 添加图形（添加到DOM上）
 ```
 element.append(childElement)
-
 ```
 * 设置/获取属性：
 ```
 element.setAttribute(name,value)
 element.getAttribute(name)
-
 ```
